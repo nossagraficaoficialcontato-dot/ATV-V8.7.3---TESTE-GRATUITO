@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: atv-design-teste
+    runtime: python
+    plan: free
+    region: ohio
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: ATV_ENV
+        value: homologation
+      - key: ATV_COOKIE_SECURE
+        value: "1"
+      - key: ATV_DATA_DIR
+        value: /tmp/atv-data
+      - key: ATV_ADMIN_PIN
+        sync: false
+      - key: ATV_ADMIN_KEY
+        sync: false
+      - key: PYTHON_VERSION
+        value: 3.13.7

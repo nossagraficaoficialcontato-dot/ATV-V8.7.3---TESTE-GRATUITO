@@ -1,0 +1,31 @@
+ATV DESIGN — RELEASE V8.7.3
+
+AJUSTES FINAIS
+
+1. PAINEL DO COLABORADOR / ASSETS
+- botão Excluir ao lado de Editar;
+- confirmação antes da exclusão;
+- sem histórico comercial: exclusão definitiva;
+- com histórico comercial: asset é retirado da vitrine/painel e o histórico é preservado;
+- não é possível excluir asset de outro Colaborador.
+
+2. PLANO ANUAL
+Mensagem adicionada:
+“Em breve no cartão. Se quiser assinar por PIX, fale com o suporte.”
+
+PRESERVADO
+- primeira tela Cliente/Colaborador da V8.7.2;
+- cadastro interno;
+- Canva;
+- Coleções;
+- Carteira;
+- Atendimento;
+- Admin;
+- Cancelar assinatura;
+- downloads;
+- Premium Max;
+- demais funções homologadas.
+
+BUILD
+V8.7.3
+API 1.7.10
